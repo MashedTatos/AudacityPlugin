@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2019
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AudacityPlugin - VST3", "AudacityPlugin_VST3.vcxproj", "{9AD1D9B7-B97D-9BFA-0163-1DF12A4A4556}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AF31D572-3F63-7F99-1978-B71BB6A8B640} = {AF31D572-3F63-7F99-1978-B71BB6A8B640}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AudacityPlugin - Shared Code", "AudacityPlugin_SharedCode.vcxproj", "{AF31D572-3F63-7F99-1978-B71BB6A8B640}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AD1D9B7-B97D-9BFA-0163-1DF12A4A4556}.Debug|x64.ActiveCfg = Debug|x64
+		{9AD1D9B7-B97D-9BFA-0163-1DF12A4A4556}.Debug|x64.Build.0 = Debug|x64
+		{9AD1D9B7-B97D-9BFA-0163-1DF12A4A4556}.Release|x64.ActiveCfg = Release|x64
+		{9AD1D9B7-B97D-9BFA-0163-1DF12A4A4556}.Release|x64.Build.0 = Release|x64
+		{AF31D572-3F63-7F99-1978-B71BB6A8B640}.Debug|x64.ActiveCfg = Debug|x64
+		{AF31D572-3F63-7F99-1978-B71BB6A8B640}.Debug|x64.Build.0 = Debug|x64
+		{AF31D572-3F63-7F99-1978-B71BB6A8B640}.Release|x64.ActiveCfg = Release|x64
+		{AF31D572-3F63-7F99-1978-B71BB6A8B640}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
